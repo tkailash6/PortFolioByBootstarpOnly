@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio by bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#form-container">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="bg-primary text-light text-center p-5">
+        <h1 class="display-2 fw-normal">Welcome to my Portfolio</h1>
+        <p class="fs-4 fw-lighter">I showcase my projects and skills here.</p>
+
+    </div>
+    <section class="container-fluid pt-5">
+        <h1 class="text-center">
+            About me</h1>
+        <div class="row pt-2">
+            <img class="col-sm-12 col-md-6"
+                src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                alt=" my image">
+            <p class="col-sm-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas felis et luctus
+                elementum. Morbi
+                lacinia nisl id ex accumsan posuere. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia Curae; Donec elementum nunc at augue faucibus, vel fringilla sem
+                mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+        </div>
+    </section>
+    <section class="bg-light container pb-5" id="portfolio">
+
+        <div class="container mt-5 ">
+            <h2 class="text-center pb-3 pt-4">Portfolio</h2>
+            <div class="row">
+                <div class="col-sm-12 mt-4 col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRmb2xpbyUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                            alt="project-image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Project 1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <button class="btn btn-primary">Learn more </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-4 col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRmb2xpbyUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                            alt="project-image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Project 1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <button class="btn btn-primary">Learn more </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 mt-4 col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRmb2xpbyUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                            alt="project-image" class="card-img-top">
+                        <div class="card-body">
+                            <h4>Project 1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <button class="btn btn-primary">Learn more </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <div id="form-container"  class="container py-5" >
+    <h1 class="text-center">Contact</h1>
+   <div class="row">
+   <div class=" col-sm-12 col-md-6 mx-auto d-flex flex-column align-items-center" >  
+    <label class="form-label d-block w-100 text-start mt-3" for="name">Name</label>
+    <input type="text" class="form-control" placeholder="shanks bawa" id="name">
+    <label class="form-label d-block w-100 text-start mt-3" for="email" >E-mail</label>
+    <input type="email" class="form-control" placeholder="@gmail.com" id="email">
+    <label class="form-label d-block w-100 text-start mt-3" for="message">Message</label>
+    <textarea class="form-control" placeholder="Type your message.." id="message" rows="5"></textarea>
+     <button class="btn btn-primary mt-3 btn-lg"  >Submit</button>
+  </div>
+   </div>
+
+    </div>
+
+<!-- <form action=""></form> -->
+
+
+
+
+
+    <footer class="bg-dark text-light text-center p-3">
+        © 2023 My Portfolio. All rights reserved.
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<!-- 
+1 modal
+2 accordians
+3 tooltips
+4 carousel
+ye mene add krne hai kbhi time milega jb -->
+
+</html>
